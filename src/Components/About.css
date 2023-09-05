@@ -1,0 +1,265 @@
+
+.aboutHeading{
+    /* border: 2px solid red; */
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #d52727;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 14px;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+}
+
+.aboutHeading h6{
+    color: yellow;
+    font-weight: bold;
+    font-size: 35px;
+    /* font-stretch:expanded; */
+    text-align: center;
+}
+
+/* #FF5757  */
+
+.firstTagline{
+    /* border: 2px solid green; */
+    /* background: linear-gradient(to left, #6814a0 0%, #b00b55 100%); */
+    border-radius: 20px;
+    padding: 10px;
+    /* color: white; */
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+
+.firstTagline h3{
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.firstTagline h4{
+    margin-top: 28px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.mainDataContainer{
+    display: flex;
+    margin-top: 20px;
+    gap: 10px;
+
+
+
+}
+
+.dataContainer{
+    /* border: 2px solid blue; */
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.missionContainer{
+    background: linear-gradient(to left, #2395ff 0%, #417d00 100%);
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+.visionContainer{
+    background: linear-gradient(to right, #0c3f6f 0%, #ac0e0e 100%);
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+.valuesContainer{
+    background: linear-gradient(to left, #0462ba 0%, #854004 100%);
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+.missionContainer h3{
+    font-weight: bold;
+}
+
+.missionContainer h4{
+    font-size: 22px;
+}
+
+.visionContainer h3{
+    font-weight: bold;
+}
+
+.visionContainer h4{
+    font-size: 22px;
+}
+
+.valuesContainer h3{
+    font-weight: bold;
+}
+
+.valuesContainer h4{
+    font-size: 22px;
+}
+
+.photoContainer{
+    /* border: 2px solid  purple; */
+    width: 40%;
+    text-align: center;
+}
+
+.contactRedirectContainer{
+    margin-top: 20px;
+    font-style: italic;
+    color: red;
+    font-weight: bold;
+    font-size: 18px
+}
+
+
+ /* RESPONSIVENESS CHECK HERE ONLY FOR PHONES MAX WIDTH 600 PX DEFINED  */
+
+@media only screen and (max-width: 600px) {
+
+    .aboutHeading{
+        /* border: 2px solid red; */
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: #d52727;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 14px;
+        height: 68px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* text-align: center; */
+    }
+    
+    .aboutHeading h6{
+        color: yellow;
+        font-weight: bold;
+        font-size: 35px;
+        /* font-stretch:expanded; */
+        text-align: center;
+    }
+    
+    /* #FF5757  */
+    
+    .firstTagline{
+        /* border: 2px solid green; */
+        /* background: linear-gradient(to left, #6814a0 0%, #b00b55 100%); */
+        border-radius: 20px;
+        padding: 10px;
+        /* color: white; */
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 40px;
+    }
+    
+    .firstTagline h3{
+        margin-top: 20px;
+        text-align: center;
+        font-weight: bold;
+        /* border: 2px solid navy; */
+        font-size: 18px;
+    }
+    
+    .firstTagline h4{
+        margin-top: 28px;
+        text-align: center;
+        font-size: 16px;
+    }
+    
+    .mainDataContainer{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 20px;
+        gap: 10px;
+    
+    
+    
+    }
+    
+    .dataContainer{
+        /* border: 2px solid blue; */
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .missionContainer{
+        background: linear-gradient(to left, #2395ff 0%, #417d00 100%);
+        color: white;
+        padding: 20px;
+        border-radius: 20px;
+    
+    }
+    
+    .visionContainer{
+        background: linear-gradient(to right, #0c3f6f 0%, #ac0e0e 100%);
+        color: white;
+        padding: 20px;
+        border-radius: 20px;
+    
+    }
+    .valuesContainer{
+        background: linear-gradient(to left, #0462ba 0%, #854004 100%);
+        color: white;
+        padding: 20px;
+        border-radius: 20px;
+    
+    }
+    
+    .missionContainer h3{
+        font-weight: bold;
+        font-size: 26px;
+    }
+    
+    .missionContainer h4{
+        font-size: 18px;
+    }
+    
+    .visionContainer h3{
+        font-weight: bold;
+        font-size: 26px;
+    }
+    
+    .visionContainer h4{
+        font-size:  18px;
+    }
+    
+    .valuesContainer h3{
+        font-weight: bold;
+        font-size: 26px;
+    }
+    
+    .valuesContainer h4{
+        font-size: 18px;
+    }
+    
+    .photoContainer{
+        /* border: 2px solid  purple; */
+        width: 100%;
+        text-align: center;
+
+    }
+    
+    .contactRedirectContainer{
+        margin-top: 20px;
+        font-style: italic;
+        color: red;
+        font-weight: bold;
+        font-size: 18px
+    }
+}

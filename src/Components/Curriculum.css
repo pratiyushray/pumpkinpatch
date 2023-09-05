@@ -1,0 +1,203 @@
+.curriculumContainer{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.curriculumHeading{
+    /* border: 2px solid red; */
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(33, 87, 203);
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-right: 70px;
+    border-radius: 14px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    /* text-align: center; */
+}
+
+
+
+.curriculumHeading h6{
+    color: yellow;
+    font-weight: bold;
+    font-size: 35px;
+    /* font-stretch:expanded; */
+    text-align: center;
+}
+
+.curriculumContent{
+    /* border: 2px solid red; */
+    padding: 8px;
+}
+
+.curriculumContent h4{
+    margin-top: 20px;
+    /* border: 2px solid green; */
+    padding: 4px;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+.curriculumContent h6{
+    /* border: 2px solid rgb(0, 0, 255); */
+    padding: 4px;
+    margin-bottom: 28px;
+}
+
+.insideRightContainer{
+    display: flex;
+    gap: 20px;
+}
+
+.insideLeftContainer{
+    display: flex;
+    gap: 20px;
+}
+
+.contentBox{
+    width: 50%;
+    font-size:22px;
+    margin-top: 100px;
+    height: fit-content;
+    padding: 20px;
+    color: white;
+  
+    
+    
+}
+
+.leftright{
+    background: linear-gradient(to left, #2395ff 0%, #784df7 100%);
+    border-radius: 20px;
+}
+
+.rightleft{
+    background: linear-gradient(to right, #f14fa8 0%, #ff3131 100%);
+    border-radius: 20px;
+}
+
+.imageBox{
+    width: 50%;
+    /* border: 2px solid violet; */
+    display: flex;
+    justify-content: center;
+    
+}
+.imageBox img{
+    /* border: 2px solid black; */
+}
+
+ /* RESPONSIVENESS CHECK HERE ONLY FOR PHONES MAX WIDTH 600 PX DEFINED  */
+
+ @media only screen and (max-width: 600px) {
+    .curriculumContainer{
+        margin-left: 0px;
+        margin-right: 0px;
+        /* border: 2px solid magenta; */
+    }
+    
+    .curriculumHeading{
+        /* border: 2px solid red; */
+        /* padding-left: 20px;
+        padding-right: 20px; */
+        background-color: rgb(33, 87, 203);
+        margin-top: 50px;
+        margin-left: 20px;
+        margin-right: 20px;
+        border-radius: 14px;
+        height: 64px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+        /* text-align: center; */
+    }
+    
+    
+    
+    .curriculumHeading h6{
+        color: yellow;
+        font-weight: bold;
+        font-size: 35px;
+        /* font-stretch:expanded; */
+        text-align: center;
+    }
+    
+    .curriculumContent{
+        /* border: 2px solid red; */
+        padding: 8px;
+    }
+    
+    .curriculumContent h4{
+        margin-top: 20px;
+        /* border: 2px solid green; */
+        padding: 4px;
+        font-weight: bold;
+        font-size: 20px;
+        text-align: center;
+    
+    }
+    
+    .curriculumContent h6{
+        /* border: 2px solid rgb(0, 0, 255); */
+        padding: 4px;
+        margin-bottom: 28px;
+    }
+    
+    .insideRightContainer{
+        display: flex;
+        gap: 20px;
+        flex-direction: column-reverse;
+    }
+    
+    .insideLeftContainer{
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+    }
+    
+    .contentBox{
+        width: 100%;
+        font-size:22px;
+        margin-top: 10px;
+        height: fit-content;
+        padding: 20px;
+        color: white;
+      
+        
+        
+    }
+    
+    .leftright{
+        background: linear-gradient(to left, #2395ff 0%, #784df7 100%);
+        border-radius: 20px;
+    }
+    
+    .rightleft{
+        background: linear-gradient(to right, #f14fa8 0%, #ff3131 100%);
+        border-radius: 20px;
+    }
+    
+    .imageBox{
+        width: 100%;
+        /* border: 2px solid violet; */
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .spaninsideContent{
+        font-size: 18px;
+    }
+    .imageBox img{
+        margin-top: 20px;
+        /* border: 2px solid black; */
+    }
+ }

@@ -1,0 +1,14 @@
+#gmapLocate{
+    width:310px;
+    height:200px;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    #gmapLocate{
+        width:160px;
+        height:100px;
+        border-radius: 20px;
+    }
+
+}

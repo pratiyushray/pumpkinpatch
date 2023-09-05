@@ -1,0 +1,9 @@
+.careersContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    font-size: 20px;
+}
+.careersContainer h4{
+    font-size: 28px;
+}

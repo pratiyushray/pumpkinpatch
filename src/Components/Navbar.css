@@ -1,0 +1,16 @@
+.navbarGradient{
+    background: linear-gradient(to right, #ffc43d 0%, #ffbe25 100%)
+}
+
+.navbarGradientPhone{
+    background: linear-gradient(to right, #ffc43d 0%, #ffbe25 100%)
+}
+
+
+/* .navbarGradient{
+    background: linear-gradient(to right, #e7c209 0%, #f49c19 100%)
+}
+
+.navbarGradientPhone{
+    background: linear-gradient(to right, #f5db59 0%, #ffbe5d 100%)
+} */
